@@ -6,12 +6,14 @@ export default class Search extends Component {
         value: ""
     }
 
-    onClick = (e) => { this.props.searchUser(this.state.value); }
+    onClick = (e) => { 
+        this.props.searchUser(this.state.value); 
+    }
     onChange = (e) => { this.setState({ value: e.target.value }) }
 
     render() {
 
-        let error = this.props.err ? <h3> User Not Found! </h3> : "";
+        let error = this.props.err ? <h3> User Not Found! </h3> : "";;
 
         return (
             <div>

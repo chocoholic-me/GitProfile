@@ -9,16 +9,16 @@ class App extends Component {
     showProfile: false,
     error: false,
     profileIno: {}
-
   }
 
   searchUser = (query) => {
     fetch(`https://api.github.com/users/${query}`)
       .then(response => {
         if (response.status !== 200) {
-          this.setState({ error: true })
-          return;
+          this.setState({ error: true });
+          return null;
         }
+        this.setState({ error: false });
         return response.json();
       })
       .then(json => {

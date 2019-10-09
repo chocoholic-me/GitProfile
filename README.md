@@ -40,7 +40,7 @@ docker container run -d -p 80:80 chocoholicme/git-profile
 ```
 * You can access the website in the browser at [Localhost](http://localhost/ "Localhost") on Linux and Mac
 * If you are using Docker on windows Browse at [192.168.99.100](http://192.168.99.100/)
-
+___
 # Screenshots
 ![Screenshot (353)](https://user-images.githubusercontent.com/32388461/65373456-62f86b80-dc9b-11e9-8a11-5e24e705498b.png)
 ![Screenshot (351)](https://user-images.githubusercontent.com/32388461/65373455-62f86b80-dc9b-11e9-8f5d-24c49b1ccbaf.png)
